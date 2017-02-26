@@ -24,6 +24,7 @@
 
 from scapy.all import *
 import re
+import string
 
 target_ip = sys.argv[1]
 
