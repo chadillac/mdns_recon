@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
 
 ##  The MIT License (MIT)
 ##  
@@ -24,6 +24,7 @@
 
 from scapy.all import *
 import re
+import string
 
 target_ip = sys.argv[1]
 
